@@ -9,7 +9,7 @@ The main goal of this is to improve my skill with APIs and build knowledge and g
 Clone the repository
 
 ```
-git clone sdfafdfad
+git clone https://github.com/igorbanjac91/WeatherApp.git
 ```
 Install all the dependencies
 ```
