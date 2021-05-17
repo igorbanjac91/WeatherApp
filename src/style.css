@@ -1,9 +1,11 @@
 @font-face {
   font-family: 'Salsa';
-  src: url('./Salsa-Regular.ttf') format('ttf');
+  src: url('./Salsa-Regular.ttf') format('truetype');
   font-weight: 400;
+  font-style: unset;
 }
 
 h1 {
-  color: blue;
+  font-family: "Salsa";
+  color: red;
 }
