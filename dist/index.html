@@ -4,10 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Title</title>
+  <title>WeatherApp</title>
+  <script src="./bundle.js"></script>
 </head>
 <body>
-  <h1>Weather App</h1>
-  <img>
-  <script src="bundle.js"></script>
+  <h1>WeatherApp</h1>
+  <div class="search-container">
+    <input type="text">
+    <button>Search</button>
+  </div>
+  <div class="info-container">
+    <h2 class="name-location"></h2>
+    <img class="weather-icon">
+    <span class="temp"></span>
+    <div class="max-min-container">
+      <div class="max">
+        <span>MAX</span>
+        <span class="max-temp"></span>
+      </div>
+      <div class="min">
+        <span>MIN</span>
+        <span class="min-temp"></span>
+      </div>
+    </div>
+  </div>
 </body>
+</html>
