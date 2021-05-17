@@ -5,7 +5,9 @@ Simple weather application that shows the weather of a location.
 It uses APIs to fetch data from [OpenWeather](https://openweathermap.org/current), like location, temperatures, humidity, etc...
 The main goal of this is to improve my skill with APIs and build knowledge and gain more confidence with my asynchronous javascript skills
 
-![weather app look](img/weather-app-look.png)
+<div align="center">
+  <img src="img/weather-app-look.png">
+</div>
 
 ## Installation
 
