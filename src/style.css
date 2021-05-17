@@ -11,22 +11,31 @@
   font-style: normal;
 }
 
+/* General */
+
 body {
   font-family: "Salsa";
+  color: #222;
 }
+
+/* Layout */
+
+.search-container,
+.info-container,
+.min,
+.max {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Other */
 
 h1 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 3em;
-  color: #222;
-}
-
-.search-container {
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
 }
 
 input {
@@ -47,9 +56,6 @@ button {
 }
 
 .info-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   max-width: 150px;
   margin: 0 auto;
   padding: 1em;
@@ -71,18 +77,6 @@ button {
   display: flex;
   justify-content: space-between;
   width: 100%;
-}
-
-.max {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.min {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .max span:first-child, 
